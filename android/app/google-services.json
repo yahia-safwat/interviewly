@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "165533696133",
+    "project_id": "my-awesome-interviewly",
+    "storage_bucket": "my-awesome-interviewly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:165533696133:android:6c244d5ca9c4d0fa1b69ec",
+        "android_client_info": {
+          "package_name": "com.example.interviewly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "165533696133-2i253rkj31cschfpijo34v48ik1sb70c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.interviewly",
+            "certificate_hash": "988d9386d21862fcb4cc34fde411877c9ef470e6"
+          }
+        },
+        {
+          "client_id": "165533696133-vlve7m7anlmnvr3ihot6qv8kqmts6ri0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgKdbWLlgfj1S3AkVKz4yFYyPd2EVRxWM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "165533696133-vlve7m7anlmnvr3ihot6qv8kqmts6ri0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "165533696133-vpjrfou8ogml7r212u0spdl5o1rjiib8.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.interviewly"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

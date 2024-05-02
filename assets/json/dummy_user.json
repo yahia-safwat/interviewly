@@ -1,0 +1,63 @@
+{
+    "uid": "1",
+    "email": "test@example.com",
+    "displayName": "Test User",
+    "authProvider": "Email&Password",
+    "isEmailVerified": true,
+    "jobTitle": "Developer",
+    "isStudent": false,
+    "categoryModels": [
+      {
+        "id": "101",
+        "name": "Category 1",
+        "subcategories": [
+          {
+            "id": "201",
+            "name": "Subcategory 1",
+            "parentCategoryId": "101"
+          },
+          {
+            "id": "202",
+            "name": "Subcategory 2",
+            "parentCategoryId": "101"
+          }
+        ]
+      },
+      {
+        "id": "102",
+        "name": "Category 2",
+        "subcategories": [
+          {
+            "id": "203",
+            "name": "Subcategory 3",
+            "parentCategoryId": "102"
+          }
+        ]
+      }
+    ],
+    "questionModels": [
+      {
+        "id": "301",
+        "userUid": "1",
+        "categoryId": "101",
+        "subcategoryId": "201",
+        "questionText": "Question 1",
+        "answerText": "Answer 1",
+        "isFavorited": false,
+        "isCommon": true,
+        "knowsAnswer": true
+      },
+      {
+        "id": "302",
+        "userUid": "1",
+        "categoryId": "102",
+        "subcategoryId": "203",
+        "questionText": "Question 2",
+        "answerText": "Answer 2",
+        "isFavorited": true,
+        "isCommon": false,
+        "knowsAnswer": false
+      }
+    ]
+  }
+  
